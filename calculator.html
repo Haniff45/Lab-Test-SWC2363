@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Commission Calculation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-container {
+            border: 1px solid #000;
+            padding: 20px;
+            max-width: 500px;
+        }
+        .form-title {
+            text-decoration: underline;
+            margin-bottom: 20px;
+        }
+        .form-row {
+            margin-bottom: 15px;
+        }
+        label {
+            display: inline-block;
+            width: 120px;
+        }
+        input[type="text"], 
+        input[type="number"] {
+            width: 150px;
+            padding: 5px;
+        }
+        button {
+            margin-left: 170px;
+            padding: 8px 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2 class="form-title">Sales Commission Calculation</h2>
+        
+        <div class="form-row">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        
+        <div class="form-row">
+            <label for="month">Month:</label>
+            <input type="text" id="month" name="month">
+        </div>
+        
+        <div class="form-row">
+            <label for="salesAmount">Sales Amount:</label>
+            <input type="number" id="salesAmount" name="salesAmount">
+        </div>
+        
+        <button type="button">Calculate Commission</button>
+    </div>
+</body>
+</html>
